@@ -1,0 +1,8 @@
+node_modules/
+.turbo/
+dist/
+build/
+.next/
+pnpm-debug.log
+.pnpm-store/
+PHASE_NOTES.md
