@@ -1,8 +1,10 @@
 node_modules/
 .turbo/
 dist/
+**/dist/
 build/
 .next/
 pnpm-debug.log
 .pnpm-store/
 PHASE_NOTES.md
+**/*.tsbuildinfo
