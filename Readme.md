@@ -16,3 +16,5 @@ A full-stack **Web3 Launchpad control system** for EVM-based ecosystems — feat
 - **`PHASE_NOTES.md`** — 记录完整的开发阶段（Phase）与每个阶段的任务（Goal），用于指导 Codex 按阶段逐步生成代码。
 
 这三份文档共同定义了本项目的工程规范与 AI 自动生成规则。
+
+目前正在开发中，可关注本项目。
