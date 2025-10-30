@@ -109,7 +109,7 @@ const LaunchpadConfigSchema = z.object({
 ### 框架与依赖
 
 * Next.js + React + TypeScript + wagmi
-* UI 框架：@shadcn/ui + tailwindcss
+* UI 框架：`@shadcn/ui` + `lucide-react` + `Radix` + `tailwindcss`
 * 状态管理：React hooks（不使用 Redux）
 
 ### 代码约定
@@ -187,7 +187,7 @@ apps/control-plane/src/
 
 ### packages/ui
 
-* 仅存放可复用的 UI 组件；
+* 此处存放能复用的、使用`@shadcn/ui`+`lucide-react`+`Radix`实现的UI组件；
 * 样式由 Tailwind 提供；
 * 不包含业务逻辑。
 
