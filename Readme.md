@@ -17,4 +17,6 @@ A full-stack **Web3 Launchpad control system** for EVM-based ecosystems — feat
 
 这三份文档共同定义了本项目的工程规范与 AI 自动生成规则。
 
+`docker compose -f infra/docker-compose.yml up -d`
+
 目前正在开发中，可关注本项目。
