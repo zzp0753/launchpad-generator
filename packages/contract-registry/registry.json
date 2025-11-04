@@ -1,0 +1,9 @@
+{
+  "SaleFixed": {
+    "localhost": {
+      "chainId": 31337,
+      "address": "0x0000000000000000000000000000000000000000",
+      "abiPath": "abi/SaleFixed.json"
+    }
+  }
+}
