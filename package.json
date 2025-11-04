@@ -11,6 +11,9 @@
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
+    "chain:dev": "pnpm --filter @packages/contracts hardhat node",
+    "contracts:deploy:local": "pnpm --filter @packages/contracts hardhat run scripts/deploy.ts --network localhost",
+    "contracts:abi:export": "pnpm --filter @packages/contracts export-abi",
     "prepare": "husky",
     "postinstall": "pnpm --filter @packages/* build"
   },
